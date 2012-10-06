@@ -1,0 +1,6 @@
+<Alloy>
+	<Window id="win">
+				<Require type="widget" src="com.appcelerator.searchForBooks" id="sfb"/>
+    <TableView id="table"></TableView>
+	</Window>
+</Alloy>

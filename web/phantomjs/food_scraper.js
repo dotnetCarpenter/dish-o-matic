@@ -49,6 +49,10 @@ page.open(base + 'recipes/all_time_best', function (status) {
                     getTitle(li)
                 );
             });
+            var examine = recList.map(function(i, li) {
+                return getTitle(li) ? li : null;
+            });
+            // TODO: click on elements that requires examination
         });
         //console.log(page.plainText);
         //console.log(Object.keys(page).join("\r\n"));
